@@ -29,10 +29,17 @@ It runs as **4 independent processes** communicating via TCP + MySQL:
 
 ## Quick Reference
 
-- Scripting system → see `references/scripting.md`
-- YAML databases (item, mob, skill) → see `references/databases.md`
-- C++ development & packets → see `references/cpp-patterns.md`
-- Configuration files → see `references/configuration.md`
+| Topic | File |
+|-------|------|
+| NPC scripting (dialog, variables, events, quests) | `references/scripting.md` |
+| Advanced scripting (getd/setd, autobonus, arrays, cash shop, debug) | `references/advanced-scripting.md` |
+| Complete NPC examples (quest, daily, shop, event boss, refine...) | `references/examples.md` |
+| YAML databases (item_db, mob_db, skill_db, mob_avail) | `references/databases.md` |
+| Map flags (setmapflag, all mf_* constants) | `references/mapflags.md` |
+| Instance system (instance_create, instance_enter...) | `references/instances.md` |
+| WoE / GvG / Battleground | `references/woe-gvg.md` |
+| C++ development & packets | `references/cpp-patterns.md` |
+| Configuration files (.conf, SQL tables, GM commands) | `references/configuration.md` |
 
 ---
 
